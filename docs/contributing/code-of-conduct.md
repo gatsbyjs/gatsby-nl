@@ -38,7 +38,7 @@ Voorbeelden van het vertegenwoordigen een project of gemeenschap zijn het gebrui
 
 ## Handhaving
 
-Gevallen van beledigend, intimiderend of anderszins onaanvaardbaar gedrag kunnen worden gemeld door contact op te nemen met het projectteam op [Conduct@gatsbyjs.com] (mailto: conduct@gatsbyjs.com). Alle klachten worden beoordeeld en onderzocht en zullen resulteren in een reactie die noodzakelijk wordt geacht en past bij de mstandigheden. Het projectteam is verplicht vertrouwelijk te handelen ten aanzien van tot de melder van een incident. Verdere details van specifiek handhavingsbeleid kunnen afzonderlijk worden gepubliceerd.
+Gevallen van beledigend, intimiderend of anderszins onaanvaardbaar gedrag kunnen worden gemeld door contact op te nemen met het projectteam op [Conduct@gatsbyjs.com](mailto: conduct@gatsbyjs.com). Alle klachten worden beoordeeld en onderzocht en zullen resulteren in een reactie die noodzakelijk wordt geacht en past bij de mstandigheden. Het projectteam is verplicht vertrouwelijk te handelen ten aanzien van tot de melder van een incident. Verdere details van specifiek handhavingsbeleid kunnen afzonderlijk worden gepubliceerd.
 
 Projectonderhouders die de Gedragscode niet goed naleven of handhaven
 kunnen worden geconfronteerd met tijdelijke of permanente repercussies zoals bepaald door andere leden van het projectleiderschap.
