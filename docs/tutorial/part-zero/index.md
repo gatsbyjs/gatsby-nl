@@ -6,7 +6,7 @@ disableTableOfContents: true
 
 Voordat je begint met het bouwen van je eerste Gatsby-site, moet je jezelf vertrouwd maken met een aantal kernwebtechnologieën en ervoor zorgen dat je alle vereiste software en tools hebt geïnstalleerd.
 
-## Maak uzelf vertrouwd met de command line
+## Maak jezelf vertrouwd met de command line
 
 De command line is een op tekst gebaseerde interface die wordt gebruikt om opdrachten op je computer uit te voeren. Het wordt ook vaak de terminal genoemd. In deze tutorial gebruiken we beide termen door elkaar. Het lijkt veel op het gebruik van de Finder op een Mac of Explorer op Windows. Finder en Explorer zijn voorbeelden van grafische gebruikersinterfaces (GUI). De command line is een krachtige, op tekst gebaseerde manier om met je computer te communiceren.
 
