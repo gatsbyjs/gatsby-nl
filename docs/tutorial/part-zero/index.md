@@ -1,194 +1,158 @@
 ---
-title: Set Up Your Development Environment
+titel: Stel je ontwikkelomgeving in
 typora-copy-images-to: ./
 disableTableOfContents: true
 ---
 
-Before you start building your first Gatsby site, you’ll need to familiarize yourself with some core web technologies and make sure that you have installed all required software tools.
+Voordat je begint met het bouwen van je eerste Gatsby-site, moet je jezelf vertrouwd maken met een aantal kernwebtechnologieën en ervoor zorgen dat je alle vereiste software en tools hebt geïnstalleerd.
 
-## Familiarize yourself with the command line
+## Maak uzelf vertrouwd met de command line
 
-The command line is a text-based interface used to run commands on your computer. You’ll also often see it referred to as the terminal. In this tutorial, we’ll use both interchangeably. It’s a lot like using the Finder on a Mac or Explorer on Windows. Finder and Explorer are examples of graphical user interfaces (GUI). The command line is a powerful, text-based way to interact with your computer.
+De command line is een op tekst gebaseerde interface die wordt gebruikt om opdrachten op je computer uit te voeren. Het wordt ook vaak de terminal genoemd. In deze tutorial gebruiken we beide termen door elkaar. Het lijkt veel op het gebruik van de Finder op een Mac of Explorer op Windows. Finder en Explorer zijn voorbeelden van grafische gebruikersinterfaces (GUI). De command line is een krachtige, op tekst gebaseerde manier om met je computer te communiceren.
 
-Take a moment to locate and open up the command line interface (CLI) for your computer. Depending on which operating system you are using, see [**instructions for Mac**](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/), [**instructions for Windows**](https://www.quora.com/How-do-I-open-terminal-in-windows) or [**instructions for Linux**](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/).
+Neem even de tijd om de command line interface (CLI) voor je computer te vinden en te openen. Afhankelijk van het besturingssysteem dat je gebruikt, kun je informatie vinden op [**instructies voor Mac**](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/), [**instructies voor Windows**](https://www.quora.com/How-do-I-open-terminal-in-windows) of [**instructies voor Linux**](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/).
 
-## Install Homebrew for Node.js
+## Homebrew voor Node.js installeren
 
-To install Gatsby and Node.js, it is recommended to use [Homebrew](https://brew.sh/). A little set-up in the beginning can save you from some headaches later on!
+Om Gatsby en Node.js te installeren, wordt aanbevolen om [Homebrew](https://brew.sh/) te gebruiken. Een goed begin is het halve werk!
 
-How to install or verify Homebrew on your computer:
+Homebrew op je computer installeren of verifiëren:
 
-1. Open your Terminal.
-1. See if Homebrew is installed by running `brew -v`. You should see "Homebrew" and a version number.
-1. If not, download and install [Homebrew with the instructions](https://docs.brew.sh/Installation) for your operating system (Mac, Linux or Windows).
-1. Once you've installed Homebrew, repeat step 2 to verify.
+1. Open je terminal.
+1. Kijk of Homebrew is geïnstalleerd door `brew -v` uit te voeren. je zou "Homebrew" en een versienummer moeten zien.
+1. Zo niet, download en installeer dan [Homebrew met de instructies](https://docs.brew.sh/Installation) voor je besturingssysteem (Mac, Linux of Windows).
+1. Nadat je Homebrew hebt geïnstalleerd, kun je stap 2 herhalen om weer te controleren.
 
-### Mac Users: install Xcode Command Line Tools
+### Mac-gebruikers: installeer Xcode Command Line Tools
 
-1. Open your Terminal.
-1. On a Mac, install Xcode Command line tools by running `xcode-select --install`.
-   1. If that fails, download it [directly from the Apple site](https://developer.apple.com/download/more/), after signing-in with Apple developer account
-1. After being prompted to start the installation, you'll be prompted again to accept a software license for the tools to download.
+1. Open je terminal.
+1. Installeer op een Mac Xcode command line programma's door `xcode-select --install` uit te voeren.
+      1. Als dat niet lukt, download het dan [rechtstreeks van de Apple-site](https://developer.apple.com/download/more/), nadat je hebt ingelogd met een Apple-ontwikkelaarsaccount
+1. Wanneer je wordt gevraagd om de installatie te starten, wordt je nog eens gevraagd een softwarelicentie te accepteren voor de nog te downloaden tools.
 
-## ⌚ Install Node.js and npm
+## ⌚ Installeer Node.js en npm
 
-Node.js is an environment that can run JavaScript code outside of a web browser. Gatsby is built with Node.js. To get up and running with Gatsby, you’ll need to have a recent version installed on your computer.
+Node.js is een omgeving die JavaScript-code buiten een webbrowser kan uitvoeren. Gatsby is gebouwd met Node.js. Om aan de slag te gaan met Gatsby, moet je een recente van Node.js versie op je computer hebben geïnstalleerd.
 
-_Note: Gatsby's minimum supported Node.js version is Node 8, but feel free to use a more recent version._
+_Opmerking: Gatsby's minimaal ondersteunde Node.js versie is Node 8, maar voel je vrij om een ​​recentere versie te gebruiken._
 
-1. Open your Terminal.
-1. Run `brew update` to make sure you have the latest version of Homebrew.
-1. Run this command to install Node and npm in one go: `brew install node`
+1. Open je terminal.
+1. Voer `brew update` uit om te controleren of je de nieuwste versie van Homebrew hebt.
+1. Voer deze opdracht uit om Node en npm in één keer te installeren: `brew install node`
 
-Once you have followed the installation steps, make sure everything was installed properly:
+Nadat je de installatiestappen hebt gevolgd, controleer je of alles correct is geïnstalleerd:
 
-### Check your Node.js installation
+### Controleer je Node.js-installatie
 
-1.  Open up your terminal.
-2.  Run `node --version`. (If you’re new to the command line, “run `command`” means “type `node --version` in the command prompt, and hit the Enter key”. From here on, this is what we mean by “run `command`”).
-3.  Run `npm --version`.
+1. Open je terminal.
+2. Voer `node --version` uit. (Als je nieuw bent binnen de command line interface, "Voer `commando` uit", betekent "type `node --version` in de opdrachtprompt en druk op de Enter-toets". Vanaf nu is dat wat we bedoelen met s wat we bedoelen met "Voer `commando` uit").
+3. Voer `npm --version` uit.
 
-The output of each of those commands should be a version number. Your versions may not be the same as those shown below! If entering those commands doesn’t show you a version number, go back and make sure you have installed Node.js.
+De uitvoer van elk van deze opdrachten zou een moeten versienummer zijn. Je versies zijn mogelijk niet dezelfde als die hieronder worden weergegeven! Als bij het invoeren van deze opdrachten geen versienummer wordt weergegeven, ga je terug naar de vorige stap en controleer je de intallatie van Node.js.
 
-![Check node and npm versions in terminal](01-node-npm-versions.png)
+![Controleer node -en npm-versies in terminal](01-node-npm-versies.png)
 
-## Install Git
+## Installeer Git
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. When you install a Gatsby "starter" site, Gatsby uses Git behind the scenes to download and install the required files for your starter. You will need to have Git installed to set up your first Gatsby site.
+Git is een gratis en open source gedistribueerd versiebeheersysteem dat is ontworpen om alles -van kleine tot zeer grote projecten- snel en efficient af te handelen. Wanneer je een "starter"-site van Gatsby installeert, gebruikt Gatsby achter de schermen Git om de vereiste bestanden voor je starter te downloaden en te installeren. Je moet Git geïnstalleerd hebben om je eerste Gatsby-site in te stellen.
 
-The steps to download and install Git depend on your operating system. Follow the guide for your system:
+De stappen voor het downloaden en installeren van Git zijn afhankelijk van je besturingssysteem. Volg de gids voor je eigen systeem:
 
-- [Install Git on macOS](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
-- [Install Git on Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
-- [Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
+- [Git installeren op macOS](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+- [Git installeren op Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+- [Git installeren op Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
 
-## Using the Gatsby CLI
+## De Gatsby CLI gebruiken
 
-The Gatsby CLI tool lets you quickly create new Gatsby-powered sites and run commands for developing Gatsby sites. It is a published npm package.
+Met de Gatsby CLI-tool kunt je snel nieuwe Gatsby-sites maken en opdrachten uitvoeren voor het ontwikkelen van Gatsby-sites. Het is als pakket beschikbaar op npm.
 
-The Gatsby CLI is available via npm and should be installed globally by running `npm install -g gatsby-cli`.
+De Gatsby CLI is beschikbaar via npm en moet globaal op je systeem worden geïnstalleerd. Dit doe je door het uitvoeren van `npm install -g gatsby-cli`.
 
-_**Note**: when you install Gatsby and run it for the first time, you'll see a short message notifying you about anonymous usage data that is being collected for Gatsby commands, you can read more about how that data is pulled out and used in the [telemetry doc](/docs/telemetry)._
+_**Opmerking**: wanneer je Gatsby installeert en voor de eerste keer uitvoert, ziet je een kort bericht met informatie over anonieme gebruiksgegevens die worden verzameld voor Gatsby-opdrachten, je kunt meer lezen over hoe die gegevens worden opgehaald en gebruikt in de [telemetrie doc](/docs/telemetry)._
 
-To see the commands available, run `gatsby --help`.
+Voer `gatsby --help` uit om de beschikbare commando's te zien.
 
-![Check gatsby commands in terminal](05-gatsby-help.png)
+![Controleer gatsby-opdrachten in terminal](05-gatsby-help.png)
 
-> 💡 If you are unable to successfully run the Gatsby CLI due to a permissions issue, you may want to check out the [npm docs on fixing permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions), or [this guide](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md).
+> 💡 Als je de Gatsby CLI niet kunt uitvoeren vanwege een probleem met permissies, kunt je kijken naar [de npm documentatie over het oplossen van permissies](https://docs.npmjs.com/getting-started/fixing-npm-permissions) of [dit stappenplan](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md).
 
-## Create a Gatsby site
+## Maak een Gatsby-site
 
-Now you are ready to use the Gatsby CLI tool to create your first Gatsby site. Using the tool, you can download “starters” (partially built sites with some default configuration) to help you get moving faster on creating a certain type of site. The “Hello World” starter you’ll be using here is a starter with the bare essentials needed for a Gatsby site.
+Nu ben je klaar om de Gatsby CLI-tool te gebruiken om je eerste Gatsby-site te maken. Met behulp van de tool kun je "starters" (gedeeltelijk gebouwde sites met een standaardconfiguratie) downloaden om je te helpen sneller een bepaald type site te maken. De 'Hallo wereld' starter die je hier zult gebruiken, is een starter met de essentiële benodigdheden die nodig zijn voor een Gatsby-site.
 
-1.  Open up your terminal.
-2.  Run `gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`. (_Note: Depending on your download speed, the amount of time this takes will vary. For brevity's sake, the gif below was paused during part of the install_).
-3.  Run `cd hello-world`.
-4.  Run `gatsby develop`.
+1. Open je terminal.
+2. Voer `gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world` uit. (_Opmerking: afhankelijk van je downloadsnelheid zal de hoeveelheid tijd die dit kost variëren. Onderstaande gif laat dan ook maar een deel van de installatie zien_).
+3. Voer `cd hallo-wereld` uit.
+4. Voer `gatsby develop` uit.
 
 <video controls="controls" autoplay="true" loop="true">
   <source type="video/mp4" src="./03-create-site.mp4" />
-  <p>Sorry! You browser doesn't support this video.</p>
+  <p>Sorry! Je browser ondersteunt deze video niet.</p>
 </video>
 
-What just happened?
+Wat is er net gebeurd?
 
 ```shell
-gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+gatsby new hallo-wereld https://github.com/gatsbyjs/gatsby-starter-hello-world
 ```
 
-- `new` is a gatsby command to create a new Gatsby project.
-- Here, `hello-world` is an arbitrary title — you could pick anything. The CLI tool will place the code for your new site in a new folder called “hello-world”.
-- Lastly, the GitHub URL specified points to a code repository that holds the starter code you want to use.
+- `new` is een gatsby opdracht om een ​​nieuw Gatsby project te maken.
+- Hier is 'hallo-wereld' een willekeurige titel - je kunt alles kiezen. De CLI-tool plaatst de code voor uw nieuwe site in een nieuwe map met de naam "hallo-wereld".
+- Tenslotte verwijst de opgegeven GitHub-URL naar een code repository met de startercode die je wilt gebruiken.
 
 ```shell
-cd hello-world
+cd hallo-wereld
 ```
 
-- This says 'I want to change directories (`cd`) to the “hello-world” subfolder'. Whenever you want to run any commands for your site, you need to be in the context for that site (aka, your terminal needs to be pointed at the directory where your site code lives).
+- Dit vertaalt zich naar: 'Ik wil map (`cd`) wijzigen in de submap "hallo-wereld". Wanneer je commando's voor je site wilt uitvoeren, moet je je bevinden in de context voor die site (oftewel, je terminal moet zijn geopend in de map waar de code staat).
 
 ```shell
 gatsby develop
 ```
 
-- This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
+- Met deze opdracht wordt een ontwikkelserver gestart. Je zult je nieuwe site kunnen zien en gebruiken in een ontwikkelomgeving - lokaal (op je computer, niet gepubliceerd op internet).
 
-### View your site locally
+### Bekijk je site lokaal
 
-Open up a new tab in your browser and navigate to [**http://localhost:8000**](http://localhost:8000/).
+Open een nieuw tabblad in je browser en ga naar [**http://localhost:8000**](http://localhost:8000/).
 
-![Check homepage](04-home-page.png)
+![Controleer startpagina](04-home-page.png)
 
-Congrats! This is the beginning of your very first Gatsby site! 🎉
+Proficiat! Dit is het begin van je allereerste Gatsby-site! 🎉
 
-You’ll be able to visit the site locally at [**_http://localhost:8000_**](http://localhost:8000/) for as long as your development server is running. That’s the process you started by running the `gatsby develop` command. To stop running that process (or to “stop running the development server”), go back to your terminal window, hold down the “control” key, and then hit “c” (ctrl-c). To start it again, run `gatsby develop` again!
+U kunt de site lokaal bezoeken op het adres [**_http://localhost:8000_**](http://localhost:8000/) zolang je ontwikkelserver actief is. Dat is het proces dat je begon met het uitvoeren van de opdracht `gatsby develop`. Als je wilt stoppen met het uitvoeren van dat proces (of om te stoppen met het uitvoeren van de ontwikkelserver), ga je terug naar het terminalvenster, houd je de “control” toets ingedrukt en druk je op "c" (ctrl-c). Om het opnieuw te starten, voer je `gatsby develop` opnieuw uit!
 
-**Note:** If you are using VM setup like `vagrant` and/or would like to listen on your local IP address, run `gatsby develop -- --host=0.0.0.0`. Now, the development server listens on both 'localhost' and your local IP.
+**Opmerking:** Als je VM-instellingen zoals `vagrant` gebruikt en/of op je lokale IP-adres wilt luisteren, voer je `gatsby develop -- --host=0.0.0.0` uit. Nu is de ontwikkelserver zowel op 'localhost' als op uw lokale IP adres beschikbaar.
 
-## Set up a code editor
+## Stel een code-editor in
 
-A code editor is a program designed specifically for editing computer code. There are many great ones out there.
+Een code-editor is een programma dat speciaal is ontworpen voor het bewerken van computercode. Er is een brede selectie aan uitstekende code editors beschikbaar.
 
-### Download VS Code
+### VS Code downloaden
 
-Gatsby documentation sometimes includes screenshots that were taken in VS Code, so if you don't have a preferred code editor yet, using VS Code will make sure that your screen looks just like the screenshots in the tutorial and docs. If you choose to use VS Code, visit the [VS Code site](https://code.visualstudio.com/#alt-downloads) and download the version appropriate for your platform.
+De Gatsby documentatie bevat soms screenshots die zijn genomen in VS Code, dus als je nog geen voorkeur voor een code editor hebt, zorgt VS Code ervoor dat je scherm er uitziet als de screenshots in de tutorial en docs. Als je ervoor kiest VS Code te gebruiken, bezoekt je de [VS Code site](https://code.visualstudio.com/#alt-downloads) en downloadt je de juiste versie voor je platform.
 
-### Install the Prettier plugin
+### Installeer de Prettier plugin
 
-We also recommend using [Prettier](https://github.com/prettier/prettier), a tool that helps format your code to avoid errors.
+We raden ook aan om [Prettier](https://github.com/prettier/prettier) te gebruiken, een hulpmiddel dat helpt bij het opmaken van je code en om fouten te voorkomen.
 
-You can use Prettier directly in your editor using the [Prettier VS Code plugin](https://github.com/prettier/prettier-vscode):
+Je kunt Prettier rechtstreeks in je editor gebruiken met behulp van de [Prettier VS Code plugin](https://github.com/prettier/prettier-vscode):
 
-1.  Open the extensions view on VS Code (View => Extensions).
-2.  Search for "Prettier - Code formatter".
-3.  Click "Install". (After installation you'll be prompted to restart VS Code to enable the extension. Newer versions of VS Code will automatically enable the extension after download.)
+1. Open de extensieweergave op VS Code (View => Extensions).
+2. Zoek naar "Prettier - Code formatter".
+3. Klik op "Installeren". (Na de installatie word je gevraagd om VS Code opnieuw te starten om de extensie in te schakelen. Nieuwere versies van VS Code zullen de extensie automatisch inschakelen na het downloaden.)
 
-> 💡 If you're not using VS Code, check out the Prettier docs for [install instructions](https://prettier.io/docs/en/install.html) or [other editor integrations](https://prettier.io/docs/en/editors.html).
+> 💡 Als je geen VS Code gebruikt, bekijk dan de Prettier-documenten voor [installatie instructies](https://prettier.io/docs/en/install.html) of [andere editor integraties](https://prettier.io/docs/en/editors.html).
 
-## ➡️ What’s Next?
+## ➡️ Wat nu?
 
-To summarize, in this section you:
+Samenvattend, in bovenstaande sectie heb je:
 
-- Learned about the command line and how to use it
-- Installed and learned about Node.js and the npm CLI tool, the version control system Git, and the Gatsby CLI tool
-- Generated a new Gatsby site using the Gatsby CLI tool
-- Ran the Gatsby development server and visited your site locally
-- Downloaded a code editor
-- Installed a code formatter called Prettier
+- Meer informatie gekeregen over de opdrachtregel en hoe deze te gebruiken
+- Node.js en de npm CLI-tool, het versiebeheersysteem Git en de Gatsby CLI-tool geïnstalleerd en geleerd te gebruiken
+- Een nieuwe Gatsby-site gegenereerd met behulp van de Gatsby CLI-tool
+- De Gatsby ontwikkelserver uitgevoerd en je hebt je site lokaal bezocht
+- Een code-editor gedownload
+- Een codeformatter -Prettier- geïnstalleerd
 
-Now, move on to [**getting to know Gatsby building blocks**](/tutorial/part-one/).
-
-## References
-
-### Overview of core technologies
-
-It’s not necessary to be an expert with these already — if you’re not, don’t worry! You’ll pick up a lot through the course of this tutorial series. These are some of the main web technologies you’ll use when building a Gatsby site:
-
-- **HTML**: A markup language that every web browser is able to understand. It stands for HyperText Markup Language. HTML gives your web content a universal informational structure, defining things like headings, paragraphs, and more.
-- **CSS**: A presentational language used to style the appearance of your web content (fonts, colors, layout, etc). It stands for Cascading Style Sheets.
-- **JavaScript**: A programming language that helps us make the web dynamic and interactive.
-- **React**: A code library (built with JavaScript) for building user interfaces. It’s the framework that Gatsby uses to build pages and structure content.
-- **GraphQL**: A query language that allows you to pull data into your website. It’s the interface that Gatsby uses for managing site data.
-
-### What is a website?
-
-For a comprehensive introduction to what a website is--including an intro to HTML and CSS--check out “[**Building your first web page**](https://learn.shayhowe.com/html-css/building-your-first-web-page/)”. It’s a great place to start learning about the web. For a more hands-on introduction to [**HTML**](https://www.codecademy.com/learn/learn-html), [**CSS**](https://www.codecademy.com/learn/learn-css), and [**JavaScript**](https://www.codecademy.com/learn/introduction-to-javascript), check out the tutorials from Codecademy. [**React**](https://reactjs.org/tutorial/tutorial.html) and [**GraphQL**](http://graphql.org/graphql-js/) also have their own introductory tutorials.
-
-### Learn more about the command line
-
-For a great introduction to using the command line, check out [**Codecademy’s Command Line tutorial**](https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command) for Mac and Linux users, and [**this tutorial**](https://www.computerhope.com/issues/chusedos.htm) for Windows users. Even if you are a Windows user, the first page of the Codecademy tutorial is a valuable read. It explains what the command line is, not just how to interface with it.
-
-### Learn more about npm
-
-npm is a JavaScript package manager. A package is a module of code that you can choose to include in your projects. If you just downloaded and installed Node.js, npm was installed with it!
-
-npm has three distinct components: the npm website, the npm registry, and the npm command line interface (CLI).
-
-- On the npm website, you can browse what JavaScript packages are available in the npm registry.
-- The npm registry is a large database of information about JavaScript packages available on npm.
-- Once you’ve identified a package you want, you can use the npm CLI to install it in your project or globally (like other CLI tools). The npm CLI is what talks to the registry — you generally only interact with the npm website or the npm CLI.
-
-> 💡 Check out npm’s introduction, “[**What is npm?**](https://docs.npmjs.com/getting-started/what-is-npm)”.
-
-### Learn more about Git
-
-You will not need to know Git to complete this tutorial, but it is a very useful tool. If you are interested in learning more about version control, Git, and GitHub, check out GitHub's [Git Handbook](https://guides.github.com/introduction/git-handbook/).
+Ga nu verder met [**kennismaken met Gatsby-bouwstenen**](/tutorial/part-one/).
