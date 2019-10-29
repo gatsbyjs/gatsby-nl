@@ -3,37 +3,37 @@ title: Gatsby.js Tutorials
 disableTableOfContents: true
 ---
 
-Welcome to Gatsby! We’re glad you’re here. The goal of this tutorial is to guide you through setting up and deploying your first Gatsby site using a starter template. As we walk through that process, we’ll introduce some more general web development topics, and go over the underlying structure of a Gatsby site.
+Welkom bij Gatsby! We zijn blij dat je er bent. Het doel van deze tutorial is je te begeleiden bij het instellen en implementeren van je eerste Gatsby-site met behulp van een startersjabloon. Terwijl we dat proces doorlopen, zullen we een aantal algemene onderwerpen voor webontwikkeling introduceren en de onderliggende structuur van een Gatsby-site bespreken.
 
-> The full tutorial is intended to be as accessible as possible to people without much web development experience (yet!) — no need to be an expert. If you prefer to jump straight to code, feel free to skip the step-by-step tutorial and see the [quick start](/docs/quick-start/) page.
+> De volledige tutorial is bedoeld om zo toegankelijk mogelijk te zijn voor mensen zonder veel ervaring met webontwikkeling (nog niet!) - je hoeft geen expert te zijn. Als je liever rechtstreeks naar code springt, kun je de stapsgewijze tutorial overslaan en de [snelstart](/docs/quick-start/) pagina bekijken.
 
-## Gatsby fundamentals
+## Gatsby basisprincipes
 
-0.  [Set up your development environment](/tutorial/part-zero/): We'll introduce you to core technologies that power Gatsby, and guide you through setting up your development environment.
-1.  [Get to know Gatsby building blocks](/tutorial/part-one/): Starting new projects, developing, and deploying sites.
-1.  [Introduction to using CSS in Gatsby](/tutorial/part-two/): Explore libraries like Typography.js and CSS Modules.
-1.  [Building nested layouts in Gatsby](/tutorial/part-three/): Layouts are sections of your site that are reused across multiple pages like headers and footers.
+0. [Stel je ontwikkelomgeving in](/tutorial/part-zero/): we laten je kennismaken met basistechnologieën die Gatsby aansturen en begeleiden je bij het opzetten van je ontwikkelomgeving.
+1. [Maak kennis met Gatsby-bouwstenen](/tutorial/part-one/): nieuwe projecten starten, sites ontwikkelen en implementeren.
+1. [Inleiding tot het gebruik van CSS in Gatsby](/tutorial/part-two /): verken bibliotheken zoals Typography.js en CSS-modules.
+1. [Geneste lay-outs bouwen in Gatsby](/tutorial/part-three/): lay-outs zijn delen van je site die worden hergebruikt op meerdere pagina's, zoals bijvoorbeeld kop- en voetteksten.
 
-## Intermediate tutorials
+## Tutorials met gemiddelde moeilijkheidsgraad
 
-In these intermediate tutorials, you'll learn how to pull data from almost anywhere into your Gatsby site with GraphQL.
+In deze tutorials leer je hoe je met GraphQL gegevens van vrijwel overal naar uw Gatsby-site kunt halen.
 
-4.  [Querying for data in a blog](/tutorial/part-four/): Create a blog and use a GraphQL query to pull your site title into the blog header.
-5.  [Source plugins and rendering queried data](/tutorial/part-five/): Use a source plugin to pull Markdown blog posts into your site and create an index page with a list of blog posts.
-6.  [Transformer plugins](/tutorial/part-six/): Use a transformer plugin to transform your Markdown blog posts into a form the blog can render.
-7.  [Programmatically create pages from data](/tutorial/part-seven/): Learn how to programmatically create a set of pages for your blog posts.
-8.  [Preparing a site to go live](/tutorial/part-eight/): Learn how to audit your site for performance and best practices for accessibility, SEO, and more.
+4. [Gegevens opvragen in een blog](/tutorial/part-four/): maak een blog en gebruik een GraphQL-query om de titel van uw site in de kop van de blog te plaatsen.
+5. [Bron plugins en gevraagde gegevens weergeven](/tutorial/part-five /): gebruik een bron plugin om Markdown-blogberichten naar uw site te halen en een indexpagina met een lijst met blogberichten te maken.
+6. [Transformator plug-ins](/tutorial/part-six/): gebruik een transformator-plugin om uw Markdown-blogberichten te transformeren naar een vorm die de blog kan weergeven.
+7. [Programmatisch pagina's maken van gegevens](/tutorial/part-seven/): leer hoe je een set pagina's programmatisch kunt maken voor uw blogposts.
+8. [Een site voorbereiden voor livegang](/tutorial/part-eight/): leer hoe je je site kunt controleren op prestaties en aanbevolden richtlijnen voor toegankelijkheid, SEO en meer.
 
-## Theme tutorials
+## Thema tutorials
 
-Gatsby themes abstract all of your default configuration (shared functionality, data sourcing, design) out of your site and into an installable package.
+Gatsby-thema's abstraheren al je standaardconfiguraties (gedeelde functionaliteit, gegevensbron, ontwerp) van je site naar een installeerbaar pakket.
 
-This means that the configuration and functionality isn’t directly written into your project, but rather versioned, centrally managed, and installed as a dependency. You can seamlessly update a theme, compose themes together, and even swap out one compatible theme for another.
+Dit betekent dat de configuratie en functionaliteit niet rechtstreeks in je project wordt opgeslagen, maar worden bijgewerkt met versiebeheer, centraal beheerd en geïnstalleerd als een referentie. Je kunt een thema naadloos bijwerken, thema's samenstellen en zelfs een compatibel thema omruilen voor een ander.
 
-Learn more about using and building themes with the [Gatsby theme tutorials](/tutorial/theme-tutorials/).
+Meer informatie over het gebruik en het bouwen van thema's met de [Gatsby-thema-tutorials](/tutorial/theme-tutorials/).
 
-## Additional tutorials
+## Aanvullende tutorials
 
-There are many use cases for Gatsby, some of which aren't covered in the first set of tutorials to keep you focused while learning. Gatsby's Additional Tutorials section is a collection of resources showing how to complete even more Gatsby tasks step-by-step, such as using source plugins for images and CMS content.
+Er zijn veel gebruiksscenario's voor Gatsby, waarvan sommige niet worden behandeld in de eerste set tutorials om je tijdens het leren niet te overspoelen. Het gedeelte Aanvullende tutorials van Gatsby is een verzameling bronnen die laat zien hoe stapsgewijs nog meer Gatsby-taken kunnen worden voltooid, zoals het gebruik van bronplugins voor afbeeldingen en CMS-inhoud.
 
-Go deeper with [additional Gatsby tutorials](/tutorial/additional-tutorials/).
+Ga verder met [extra Gatsby-tutorials](/tutorial/extra-tutorials/).
