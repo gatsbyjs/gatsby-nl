@@ -12,7 +12,7 @@ Welkom bij Gatsby! We zijn blij dat je er bent. Het doel van deze tutorial is je
 0. [Stel je ontwikkelomgeving in](/tutorial/part-zero/): we laten je kennismaken met basistechnologieën die Gatsby aansturen en begeleiden je bij het opzetten van je ontwikkelomgeving.
 1. [Maak kennis met Gatsby-bouwstenen](/tutorial/part-one/): nieuwe projecten starten, sites ontwikkelen en implementeren.
 1. [Inleiding tot het gebruik van CSS in Gatsby](/tutorial/part-two/): verken bibliotheken zoals Typography.js en CSS-modules.
-1. [Geneste lay-outs bouwen in Gatsby](/tutorial/part-three/): lay-outs zijn delen van je site die worden hergebruikt op meerdere pagina's, zoals bijvoorbeeld kop- en voetteksten.
+1. [Geneste lay-outs bouwen in Gatsby](/tutorial/part-three/): Lay-outs zijn delen van je site die worden hergebruikt op meerdere pagina's, zoals bijvoorbeeld kop- en voetteksten.
 
 ## Tutorials met gemiddelde moeilijkheidsgraad
 
