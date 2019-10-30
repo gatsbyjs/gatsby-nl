@@ -26,7 +26,7 @@ In deze tutorials leer je hoe je met GraphQL gegevens van vrijwel overal naar uw
 
 ## Thema tutorials
 
-Gatsby-thema's abstraheren al je standaardconfiguraties (gedeelde functionaliteit, gegevensbron, ontwerp) van je site naar een installeerbaar pakket.
+Gatsby-thema's abstraheren al je standaardconfiguraties (gedeelde functionaliteit, gegevensbronnen, ontwerp) van je site naar een installeerbaar pakket.
 
 Dit betekent dat de configuratie en functionaliteit niet rechtstreeks in je project wordt opgeslagen, maar worden bijgewerkt met versiebeheer, centraal beheerd en geïnstalleerd als een referentie. Je kunt een thema naadloos bijwerken, thema's samenstellen en zelfs een compatibel thema omruilen voor een ander.
 
