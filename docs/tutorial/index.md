@@ -30,7 +30,7 @@ Gatsby-thema's abstraheren al je standaardconfiguraties (gedeelde functionalitei
 
 Dit betekent dat de configuratie en functionaliteit niet rechtstreeks in je project wordt opgeslagen, maar worden bijgewerkt met versiebeheer, centraal beheerd en geïnstalleerd als een referentie. Je kunt een thema naadloos bijwerken, thema's samenstellen en zelfs een compatibel thema omruilen voor een ander.
 
-Meer informatie over het gebruik en het bouwen van thema's met de [Gatsby-thema-tutorials](/tutorial/theme-tutorials/).
+Meer informatie over het gebruik en het bouwen van thema's met de [Gatsby-thema tutorials](/tutorial/theme-tutorials/).
 
 ## Aanvullende tutorials
 
