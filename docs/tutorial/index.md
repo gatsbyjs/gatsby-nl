@@ -10,19 +10,19 @@ Welkom bij Gatsby! We zijn blij dat je er bent. Het doel van deze tutorial is je
 ## Gatsby basisprincipes
 
 0. [Stel je ontwikkelomgeving in](/tutorial/part-zero/): We laten je kennismaken met basistechnologieën die Gatsby aansturen en begeleiden je bij het opzetten van je ontwikkelomgeving.
-1. [Maak kennis met Gatsby-bouwstenen](/tutorial/part-one/): nieuwe projecten starten, sites ontwikkelen en implementeren.
-1. [Inleiding tot het gebruik van CSS in Gatsby](/tutorial/part-two/): verken bibliotheken zoals Typography.js en CSS-modules.
-1. [Geneste lay-outs bouwen in Gatsby](/tutorial/part-three/): Lay-outs zijn delen van je site die worden hergebruikt op meerdere pagina's, zoals bijvoorbeeld kop- en voetteksten.
+1. [Maak kennis met Gatsby-bouwstenen](/tutorial/part-one/): Nieuwe projecten starten, sites ontwikkelen en implementeren.
+1. [Inleiding tot het gebruik van CSS in Gatsby](/tutorial/part-two/): Verken bibliotheken zoals Typography.js en CSS-modules.
+1. [Geneste lay-outs bouwen in Gatsby](/tutorial/part-three/): Lay-outs zijn delen van je site die worden hergebruikt op meerdere pagina's, zoals bijvoorbeeld kop -en voetteksten.
 
 ## Tutorials met gemiddelde moeilijkheidsgraad
 
 In deze tutorials leer je hoe je met GraphQL gegevens van vrijwel overal naar uw Gatsby-site kunt halen.
 
 4. [Gegevens opvragen in een blog](/tutorial/part-four/): Maak een blog en gebruik een GraphQL-query om de titel van uw site in de kop van de blog te plaatsen.
-5. [Bron-plugins en gevraagde gegevens weergeven](/tutorial/part-five/): gebruik een bron-plugin om Markdown-blogberichten naar uw site te halen en een indexpagina met een lijst met blogberichten te maken.
-6. [Transformator plug-ins](/tutorial/part-six/): gebruik een transformator-plugin om uw Markdown blogberichten te transformeren naar een vorm die de blog kan weergeven.
-7. [Programmatisch pagina's maken van gegevens](/tutorial/part-seven/): leer hoe je een set pagina's programmatisch kunt maken voor uw blogposts.
-8. [Een site voorbereiden voor livegang](/tutorial/part-eight/): leer hoe je je site kunt controleren op prestaties en aanbevolen richtlijnen voor toegankelijkheid, SEO en meer.
+5. [Bron-plugins en gevraagde gegevens weergeven](/tutorial/part-five/): Gebruik een bron-plugin om Markdown-blogberichten naar uw site te halen en een indexpagina met een lijst met blogberichten te maken.
+6. [Transformator plug-ins](/tutorial/part-six/): Gebruik een transformator-plugin om uw Markdown-blogberichten te transformeren naar een vorm die de blog kan weergeven.
+7. [Programmatisch pagina's maken van gegevens](/tutorial/part-seven/): Leer hoe je een set pagina's programmatisch kunt maken voor uw blogposts.
+8. [Een site voorbereiden voor livegang](/tutorial/part-eight/): Leer hoe je je site kunt controleren op prestaties en aanbevolen richtlijnen voor toegankelijkheid, SEO en meer.
 
 ## Thema tutorials
 
