@@ -20,7 +20,7 @@ In deze tutorials leer je hoe je met GraphQL gegevens van vrijwel overal naar uw
 
 4. [Gegevens opvragen in een blog](/tutorial/part-four/): maak een blog en gebruik een GraphQL-query om de titel van uw site in de kop van de blog te plaatsen.
 5. [Bron plugins en gevraagde gegevens weergeven](/tutorial/part-five /): gebruik een bron plugin om Markdown-blogberichten naar uw site te halen en een indexpagina met een lijst met blogberichten te maken.
-6. [Transformator plug-ins](/tutorial/part-six/): gebruik een transformator-plugin om uw Markdown-blogberichten te transformeren naar een vorm die de blog kan weergeven.
+6. [Transformator plug-ins](/tutorial/part-six/): gebruik een transformator-plugin om uw Markdown blogberichten te transformeren naar een vorm die de blog kan weergeven.
 7. [Programmatisch pagina's maken van gegevens](/tutorial/part-seven/): leer hoe je een set pagina's programmatisch kunt maken voor uw blogposts.
 8. [Een site voorbereiden voor livegang](/tutorial/part-eight/): leer hoe je je site kunt controleren op prestaties en aanbevolen richtlijnen voor toegankelijkheid, SEO en meer.
 
