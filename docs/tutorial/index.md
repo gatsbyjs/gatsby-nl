@@ -36,4 +36,4 @@ Meer informatie over het gebruik en het bouwen van thema's met de [Gatsby-thema-
 
 Er zijn veel gebruiksscenario's voor Gatsby, waarvan sommige niet worden behandeld in de eerste set tutorials om je tijdens het leren niet te overspoelen. Het gedeelte Aanvullende tutorials van Gatsby is een verzameling bronnen die laat zien hoe stapsgewijs nog meer Gatsby-taken kunnen worden voltooid, zoals het gebruik van bronplugins voor afbeeldingen en CMS-inhoud.
 
-Ga verder met [extra Gatsby-tutorials](/tutorial/extra-tutorials/).
+Ga verder met [extra Gatsby-tutorials](/tutorial/additional-tutorials/).
