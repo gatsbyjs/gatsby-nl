@@ -42,7 +42,7 @@ Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven
 
 ## Attribution
 
-Deze Gedragscode is overgenomen uit het Bijdragerconvenant, versie 1.4.
+Deze Gedragscode is overgenomen uit het Bijdragersconvenant, versie 1.4.
 
 - Homepage: https://contributor-covenant.org
-- Versie: https://contributor-covenant.org/version/1/4/
+- Versie: https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct
