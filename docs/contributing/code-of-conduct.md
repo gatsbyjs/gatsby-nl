@@ -4,48 +4,45 @@ title: Gatsby Contributor Covenant Gedragscode
 
 ## Onze belofte
 
-In het belang van het bevorderen van een open en gastvrije omgeving, beloven wij als bijdragers en beheerders, onszelf in te zetten om participatie aan ons project en onze gemeenschap een intimidatievrije ervaring te maken voor iedereen, ongeacht leeftijd, lichaamsgrootte, handicap, etniciteit, genderidentiteit en expressie, niveau van ervaring, nationaliteit, persoonlijke verschijning, ras, religie of seksuele identiteit -en oriëntatie.
+In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en orientatie.
 
-## Onze normen
+## Onze standaarden
 
-Voorbeelden van gedrag dat bijdraagt ​​aan het creëren van een positieve omgeving zijn onder andere:
+Voorbeelden van gedrag dat bijdraagt tot het creëren van een positieve omgeving omvat onder andere:
 
-- Gebruik van gastvrije en inclusieve taal
-- Respect hebben voor verschillende standpunten en ervaringen
-- Accepteren van constructieve kritiek
-- Aandacht voor wat het beste is voor de gemeenschap
-- Empathie tonen tegenover andere leden van de gemeenschap
+- Gebruik van gastvrije en omvattende taal
+- Respectvol zijn ten aanzien van andere standpunten en ervaringen
+- Het accepteren van constructieve kritiek
+- Focussen op wat het beste is voor de gemeenschap
+- Empathisch zijn ten aanzien van andere deelnemers
 
-Voorbeelden van onaanvaardbaar gedrag door deelnemers zijn:
+Voorbeelden van niet acceptabel gedrag bij deelnemers omvat:
 
-- Het gebruik van geseksualiseerde taal of beeldtaal en ongewenste seksuele aandacht -of intimidatie
-- Trollen, beledigende / denigrerende opmerkingen en persoonlijke of politieke aanvallen
-- Publieke of particuliere intimidatie
-- Publiceren van privé-informatie van anderen, zowel fysiek als digitale adresgegevens, zonder uitdrukkelijke toestemming
-- Ander gedrag dat redelijkerwijs als ongepast kan worden beschouwd in een professionele omgeving
+- Het gebruik van seksueel geladen taal of prenten, alsook ongewenst seksuele aandacht of avances
+- Trollen, beledigend/denigrerend commentaar en persoonlijke of politieke aanvallen
+- Publiek of privaat lastig vallen
+- Het publiceren van prive informatie zoals een fysiek of electronisch adres zonder expliciete toestemming
+- Ander gedrag dat redelijkerwijs zou kunnen worden beschouwd als ongepast in een professionele omgeving
 
 ## Onze verantwoordelijkheden
 
-Projectonderhouders zijn verantwoordelijk voor het verduidelijken van de normen van acceptabel gedrag en zullen naar verwachting passende en eerlijke corrigerende maatregelen nemen in reactie op gevallen van onaanvaardbaar gedrag.
+Projectonderhouders zijn verantwoordelijk om klaarheid te scheppen met betrekking tot de standaarden van acceptabel gedrag en worden verwacht de passende en bilijke corrigerende maatregelen te treffen als antwoord op vertoningen van niet acceptabel gedrag.
 
-Projectbeheerders hebben het recht en de verantwoordelijkheid om comments, commits, code, wiki-bewerkingen, problemen en andere bijdragen te verwijderen, bewerken of afwijzen die niet niet in overeenstemming zijn met deze gedragscode, om medewerkers tijdelijk of permanent te toegang te ontzeggen naar aanleiding van gedrag dat zij ongepast, bedreigend, aanstootgevend of schadelijk beschouwen.
+Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permantent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
 
-## Toepasbaarheid
+## Bereik
 
-Deze Gedragscode is van toepassing zowel binnen projectruimten als in openbare ruimtes wanneer een persoon het project of de gemeenschap vertegenwoordigt.
-
-Voorbeelden van het vertegenwoordigen een project of gemeenschap zijn het gebruiken van een officieel project e-mailadres, het plaatsen via een officieel social media-account of optreden als een aangewezen vertegenwoordiger bij een online of offline evenement. Vertegenwoordiging van een project kan nader gedefinieerd en verduidelijkt zijn door projectbeheerders.
+Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruimtes wanneer een individu het project of de gemeenschap vertegenwoordigd. Voorbeelden van vertegenwoordiging van een project of gemeenschap omvatten het gebruik van een officieel email adres van het project, het posten via een officiele sociale media account, of het handelen als een aangestelde vertegenwoordiger op een online of offline event. Vertegenwoordiging van een project mag verder worden gedefinieerd door de projectonderhouders.
 
 ## Handhaving
 
-Gevallen van beledigend, intimiderend of anderszins onaanvaardbaar gedrag kunnen worden gemeld door contact op te nemen met het projectteam op [Conduct@gatsbyjs.com](mailto: conduct@gatsbyjs.com). Alle klachten worden beoordeeld en onderzocht en zullen resulteren in een reactie die noodzakelijk wordt geacht en past bij de mstandigheden. Het projectteam is verplicht vertrouwelijk te handelen ten aanzien van tot de melder van een incident. Verdere details van specifiek handhavingsbeleid kunnen afzonderlijk worden gepubliceerd.
+Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [Conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
 
-Projectonderhouders die de Gedragscode niet goed naleven of handhaven
-kunnen worden geconfronteerd met tijdelijke of permanente repercussies zoals bepaald door andere leden van het projectleiderschap.
+Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven, kunnen tijdelijke of permanente repercussies opgelegd krijgen door overige leden van de projectleiding.
 
 ## Attribution
 
 Deze Gedragscode is overgenomen uit het Bijdragerconvenant, versie 1.4.
 
-- startpagina: https://contributor-covenant.org
-- versie: https://contributor-covenant.org/version/1/4/
+- Homepage: https://contributor-covenant.org
+- Versie: https://contributor-covenant.org/version/1/4/
