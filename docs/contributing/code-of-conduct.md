@@ -45,7 +45,7 @@ kunnen worden geconfronteerd met tijdelijke of permanente repercussies zoals bep
 
 ## Attribution
 
-Deze Gedragscode is overgenomen uit het Bijdragerconvenant, versie 1.4.
+Deze Gedragscode is overgenomen uit het Bijdragersconvenant, versie 1.4.
 
 - startpagina: https://contributor-covenant.org
-- versie: https://contributor-covenant.org/version/1/4/
+- versie: https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct
