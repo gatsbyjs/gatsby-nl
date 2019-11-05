@@ -1,5 +1,5 @@
 ---
-title: Gatsby Contributor Covenant Gedragscode
+title: Gatsby Bijdragersconvenant Gedragscode
 ---
 
 ## Onze belofte
