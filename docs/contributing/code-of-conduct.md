@@ -36,7 +36,7 @@ Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruim
 
 ## Handhaving
 
-Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [Conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
+Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
 
 Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven, kunnen tijdelijke of permanente repercussies opgelegd krijgen door overige leden van de projectleiding.
 
