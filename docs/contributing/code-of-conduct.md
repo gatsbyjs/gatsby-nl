@@ -4,7 +4,7 @@ title: Gatsby Bijdragersconvenant Gedragscode
 
 ## Onze belofte
 
-In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en orientatie.
+In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en oriëntatie.
 
 ## Onze standaarden
 
