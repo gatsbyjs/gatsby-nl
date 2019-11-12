@@ -32,7 +32,7 @@ Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, c
 
 ## Bereik
 
-Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruimtes wanneer een individu het project of de gemeenschap vertegenwoordigd. Voorbeelden van vertegenwoordiging van een project of gemeenschap omvatten het gebruik van een officieel email adres van het project, het posten via een officiele sociale media account, of het handelen als een aangestelde vertegenwoordiger op een online of offline event. Vertegenwoordiging van een project mag verder worden gedefinieerd door de projectonderhouders.
+Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruimtes wanneer een individu het project of de gemeenschap vertegenwoordigd. Voorbeelden van vertegenwoordiging van een project of gemeenschap omvatten het gebruik van een officieel email adres van het project, het posten via een officieel sociale media account, of het handelen als een aangestelde vertegenwoordiger op een online of offline event. Vertegenwoordiging van een project mag verder worden gedefinieerd door de projectonderhouders.
 
 ## Handhaving
 
