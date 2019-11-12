@@ -1,50 +1,48 @@
 ---
-title: Gatsby Contributor Covenant Code of Conduct
+title: Gatsby Contributor Covenant Gedragscode
 ---
 
-## Our Pledge
+## Onze belofte
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en oriëntatie.
 
-## Our Standards
+## Onze standaarden
 
-Examples of behavior that contributes to creating a positive environment include:
+Voorbeelden van gedrag dat bijdraagt tot het creëren van een positieve omgeving omvat onder andere:
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- Gebruik van gastvrije en omvattende taal
+- Respectvol zijn ten aanzien van andere standpunten en ervaringen
+- Het accepteren van constructieve kritiek
+- Focussen op wat het beste is voor de gemeenschap
+- Empathisch zijn ten aanzien van andere deelnemers
 
-Examples of unacceptable behavior by participants include:
+Voorbeelden van niet acceptabel gedrag bij deelnemers omvat:
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Het gebruik van seksueel geladen taal of prenten, alsook ongewenst seksuele aandacht of avances
+- Trollen, beledigend/denigrerend commentaar en persoonlijke of politieke aanvallen
+- Publiek of privaat lastig vallen
+- Het publiceren van prive informatie zoals een fysiek of electronisch adres zonder expliciete toestemming
+- Ander gedrag dat redelijkerwijs zou kunnen worden beschouwd als ongepast in een professionele omgeving
 
-## Our Responsibilities
+## Onze verantwoordelijkheden
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Projectonderhouders zijn verantwoordelijk om klaarheid te scheppen met betrekking tot de standaarden van acceptabel gedrag en worden verwacht de passende en billijke corrigerende maatregelen te treffen als antwoord op vertoningen van niet acceptabel gedrag.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this code of conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permanent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
 
-## Scope
+## Bereik
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruimtes wanneer een individu het project of de gemeenschap vertegenwoordigd. Voorbeelden van vertegenwoordiging van een project of gemeenschap omvatten het gebruik van een officieel email adres van het project, het posten via een officieel sociale media account, of het handelen als een aangestelde vertegenwoordiger op een online of offline event. Vertegenwoordiging van een project mag verder worden gedefinieerd door de projectonderhouders.
 
-## Enforcement
+## Handhaving
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven, kunnen tijdelijke of permanente repercussies opgelegd krijgen door overige leden van de projectleiding.
 
-When faced with repeated bad faith comments or harassment after an earnest attempt to mediate an issue, the Gatsby team reserves the right to remove someone from the GitHub repository and/or block them on social media. This decision will always be made with consensus from more than one team member.
+## Attributie
 
-## Attribution
+Deze Gedragscode is een aangepaste versie van de [Contributor Covenant][homepage],
+versie 1.4, beschikbaar op https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct.html
 
-This Code of Conduct is adapted from the Contributor Covenant, version 1.4.
-
-- homepage: https://contributor-covenant.org
-- version: https://contributor-covenant.org/version/1/4/
+[homepage]: https://www.contributor-covenant.org
