@@ -40,9 +40,9 @@ Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden
 
 Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven, kunnen tijdelijke of permanente repercussies opgelegd krijgen door overige leden van de projectleiding.
 
-## Attribution
+## Attributie
 
-Deze Gedragscode is overgenomen uit het Bijdragersconvenant, versie 1.4.
+Deze Gedragscode is een aangepaste versie van de [Contributor Covenant][homepage],
+versie 1.4, beschikbaar op https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct.html
 
-- Homepage: https://contributor-covenant.org
-- Versie: https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct
+[homepage]: https://www.contributor-covenant.org
