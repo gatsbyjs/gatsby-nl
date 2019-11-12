@@ -28,7 +28,7 @@ Voorbeelden van niet acceptabel gedrag bij deelnemers omvat:
 
 Projectonderhouders zijn verantwoordelijk om klaarheid te scheppen met betrekking tot de standaarden van acceptabel gedrag en worden verwacht de passende en bilijke corrigerende maatregelen te treffen als antwoord op vertoningen van niet acceptabel gedrag.
 
-Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permantent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
+Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permanent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
 
 ## Bereik
 
