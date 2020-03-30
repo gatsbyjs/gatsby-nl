@@ -17,7 +17,6 @@ Er zijn twee hoofdzakelijke manieren om te starten met Gatsby:
 ## Verder gaan
 
 1. [Recepten](/docs/recipes/): Vind snelle antwoorden over hoe bepaalde, algemene taken uit te voeren met Gatsby.
-
 2. Kies je eigen avontuur en doorloop de verschillende onderdelen van de Gatsby documentatie:
 
    - [Referentiegidsen](/docs/guides/): Leer over de verschillende onderwerpen rond het bouwen met Gatsby, zoals dataverzameling, implementatie en meer.
