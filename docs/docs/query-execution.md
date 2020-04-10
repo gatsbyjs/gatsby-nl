@@ -95,11 +95,7 @@ In `develop` mode, every time a node is created, or is updated (e.g. via editing
 
 #### Queue queries for execution
 
-<<<<<<< HEAD
-There is now a list of all pages that need to be executed (linked to their Query information). Gatsby will queue them for execution (for realz this time). A call to [runQueriesForPathnames](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby/src/internal-plugins/query-runner/page-query-runner.js#L127) kicks off this step. For each page or static query, Gatsby creates a Query Job that looks something like:
-=======
 There is now a list of all pages that need to be executed (linked to their Query information). Gatsby will queue them for execution (for real this time). A call to [runQueriesForPathnames](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby/src/internal-plugins/query-runner/page-query-runner.js#L127) kicks off this step. For each page or static query, Gatsby creates a Query Job that looks something like:
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 ```javascript
 {
