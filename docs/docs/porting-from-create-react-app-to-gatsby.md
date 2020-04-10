@@ -119,18 +119,11 @@ The `gatsby build` command also won't be able to use browser APIs, so some code 
 
 Some common globals that would need to be protected are:
 
-<<<<<<< HEAD
-- `window`
-- `localStorage`
-- `navigator`
-- `document`
-=======
 - [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 - [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [`sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
 - [`navigator`](https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator)
 - [`document`](https://developer.mozilla.org/en-US/docs/Web/API/Document)
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 Additionally, some packages that depend on globals existing (e.g. `react-router-dom`) may need to be [patched](/docs/debugging-html-builds/#fixing-third-party-modules) or migrated to other packages.
 
@@ -142,7 +135,6 @@ These are only a few examples, though all can be fixed in one of two ways:
 if (typeof window !== `undefined`) {
   // code that references a browser global
   window.alert("Woohoo!")
-<<<<<<< HEAD
 }
 ```
 
@@ -187,52 +179,6 @@ class MyComponment() extends Component {
 }
 ```
 
-=======
-}
-```
-
-2. For class components: moving references to browser globals into a `componentDidMount`
-
-```jsx
-
-import React, { Component } from "react"
-
-class MyComponment() extends Component {
-  render() {
-    window.alert("This will break the build")
-
-    return (
-      <div>
-        <p>Component</p>
-      </div>
-    )
-  }
-}
-```
-
-Would be changed into:
-
-```jsx
-
-import React, { Component } from "react"
-
-class MyComponment() extends Component {
-  componentDidMount() {
-    // code that references the browser global
-    window.alert("This won't break the build")
-  }
-
-  render() {
-    return (
-      <div>
-        <p>Component</p>
-      </div>
-    )
-  }
-}
-```
-
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 3. For function components: moving references to browser globals into a `useEffect` hook
 
 ```jsx
@@ -263,11 +209,7 @@ export default Foo
 
 If these browser globals aren't protected correctly, you'll see a webpack error like the one below when building your site:
 
-<<<<<<< HEAD
-```
-=======
 ```text
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 WebpackError: ReferenceError: window is not defined
 ```
 
