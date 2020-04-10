@@ -4,7 +4,7 @@ title: Gatsby Contributor Covenant Gedragscode
 
 ## Onze belofte
 
-In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en orientatie.
+In het belang van het bevorderen van een open en welkomende omgeving, beloven wij, de bijdragers en onderhouders, om het deelnemen in ons project en onze gemeenschap een intimidatie-vrije ervaring te maken voor iedereen. Dit onafhankelijk van leeftijd, lichaam, handicap, etniciteit, gender identiteit en uiting, ervaringsniveau, nationaliteit, persoonlijk voorkomen, ras, religie of seksuele indentiteit en oriëntatie.
 
 ## Onze standaarden
 
@@ -26,9 +26,9 @@ Voorbeelden van niet acceptabel gedrag bij deelnemers omvat:
 
 ## Onze verantwoordelijkheden
 
-Projectonderhouders zijn verantwoordelijk om klaarheid te scheppen met betrekking tot de standaarden van acceptabel gedrag en worden verwacht de passende en bilijke corrigerende maatregelen te treffen als antwoord op vertoningen van niet acceptabel gedrag.
+Projectonderhouders zijn verantwoordelijk om klaarheid te scheppen met betrekking tot de standaarden van acceptabel gedrag en worden verwacht de passende en billijke corrigerende maatregelen te treffen als antwoord op vertoningen van niet acceptabel gedrag.
 
-Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permantent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
+Projectonderhouders hebben het recht en de verantwoordelijkheid om commentaar, commits, code, wiki edits, issues en andere contributies te verwijderen, te bewerken of af te keuren indien deze niet voldoen aan deze Gedragscode, of om tijdelijk of permanent te bannen zij wiens gedrag als ongewenst, bedreigend, beledigend of schadelijk wordt geacht.
 
 ## Bereik
 
@@ -36,7 +36,7 @@ Deze Gedragscode geldt voor zowel binnen project ruimtes alsook in publieke ruim
 
 ## Handhaving
 
-Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [VUL EMAIL ADRES IN]. Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
+Instanties van beledigend, storend of anders niet aanvaardbaar gedrag mag worden gerapporteerd aan het project team op [conduct@gatsbyjs.com](mailto:conduct@gatsbyjs.com). Alle klachten zullen besproken en onderzocht worden en zullen resulteren in een antwoord dat nodig en passend wordt geacht al naargelang de situatie. Het project team is verplicht om vertrouwelijkheid te garanderen met betrekking tot de klager. Verdere details van specifiek handhavingsbeleid kan apart worden gepost.
 
 Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven, kunnen tijdelijke of permanente repercussies opgelegd krijgen door overige leden van de projectleiding.
 
