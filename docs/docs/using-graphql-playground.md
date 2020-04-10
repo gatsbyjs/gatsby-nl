@@ -18,9 +18,6 @@ To access this experimental feature utilizing GraphQL Playground with Gatsby, ad
 "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
 ```
 
-<<<<<<< HEAD
-Use `npm run develop` instead of `gatsby develop` and access it when the development server is running on <https://localhost:8000/___graphql>
-=======
 If you are on **Windows** then you should use:
 
 ```json:title=package.json
@@ -34,7 +31,6 @@ npm install --save-dev cross-env
 ```
 
 Use `npm run develop` instead of `gatsby develop` and access it when the development server is running on `http://localhost:8000/___graphql`
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 To still be able to use `gatsby develop` you would require the dotenv package to your gatsby-config.js file and add an [environment variable](/docs/environment-variables/) file, typically called `.env.development`. Finally, add `GATSBY_GRAPHQL_IDE=playground` to the `.env.development` file.
 
