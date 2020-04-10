@@ -5,13 +5,9 @@ title: Environment Variables
 You can provide environment variables to your site to customize its behavior in different environments.
 
 Environment variables can be distinguished between different types.
-<<<<<<< HEAD
-There are environment variables that are defined in special places intended to be used in different deployment environments. You can call these “Project Env Vars”.
-=======
 
 There are environment variables that are defined in special places intended to be used in different deployment environments. You can call these “Project Env Vars”.
 
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 And there are true OS-level environment variables that might be used in command-line calls. You can call these “OS Env Vars”.
 
 In both cases you want to be able to access the relevant value of these variables for the environment you are in.
