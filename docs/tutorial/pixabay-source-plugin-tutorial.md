@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD:docs/docs/pixabay-source-plugin-tutorial.md
-title: Pixabay Image Source Plugin Tutorial
-=======
 title: "Creating an Image Source Plugin"
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94:docs/tutorial/pixabay-source-plugin-tutorial.md
 ---
 
 ## What this tutorial covers
