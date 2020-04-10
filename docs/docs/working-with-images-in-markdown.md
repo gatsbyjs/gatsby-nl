@@ -34,6 +34,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`, // highlight-line
+<<<<<<< HEAD
       },
     },
   ],
@@ -73,6 +74,60 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/images`, // highlight-line
+=======
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
+      },
+    },
+  ],
+}
+```
+
+<<<<<<< HEAD
+Then, in a Markdown file, the path to a `featuredImage` would be relative to the page file (in this case, in an `/images` directory up a level):
+
+```md:title=src/pages/about.md
+---
+title: About
+featuredImage: ../images/team-cat.png
+=======
+Then, in an example Markdown file, add a field called `featuredImage`:
+
+```markdown:title=src/pages/my-favorite-doggos.md
+---
+title: My Favorite Doggos
+featuredImage: pupperino.png
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
+---
+
+Content goes here!
+```
+
+<<<<<<< HEAD
+### Querying for images from Frontmatter
+
+=======
+The next step will be to incorporate the data into a template with a GraphQL query, which can be found later in this guide.
+
+### Configuring for images and posts in different directories
+
+There are also occasions when you may want to source images from a different directory than where your Markdown posts or pages are located, such as in an external `/images` folder. You can set this up by specifying two distinct sources, one for the pages and the other for images:
+
+```js:title=gatsby-config.js
+module.exports = {
+  plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`, // highlight-line
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`, // highlight-line
       },
     },
   ],
@@ -81,7 +136,7 @@ module.exports = {
 
 Then, in a Markdown file, the path to a `featuredImage` would be relative to the page file (in this case, in an `/images` directory up a level):
 
-```md:title=src/pages/about.md
+```markdown:title=src/pages/about.md
 ---
 title: About
 featuredImage: ../images/team-cat.png
@@ -92,6 +147,7 @@ Content goes here!
 
 ### Querying for images from Frontmatter
 
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 Now that you've sourced Markdown and image data, you can query for featured images in GraphQL. If a filepath points to an actual image, it will be transformed into a `File` node in GraphQL and then you can get the image data out of it by using the `childImageSharp` field.
 
 This can be added to the GraphQL query in a Markdown template file. In this example, a [Fluid query](/docs/gatsby-image#images-that-stretch-across-a-fluid-container) is used to make a responsive image.
@@ -181,7 +237,17 @@ npm install --save gatsby-remark-images gatsby-plugin-sharp
 
 Also make sure that `gatsby-source-filesystem` is installed and points at the directory where your images are located.
 
-Configure the plugins in your `gatsby-config` file. As with the previous example, either `Remark` or `MDX` can be used; `gatsby-plugin-mdx` will be used in this case. Put the `gatsby-remark-images` plugin within the `gatsbyRemarkPlugins` option field of `gatsby-plugin-mdx`.
+Configure the plugins in your `gatsby-config` file. As with the previous example, either `Remark` or `MDX` can be used.
+
+### Using the MDX Plugin
+
+The below example uses the `gatsby-plugin-mdx` plugin.
+
+`gatsby-remark-images` needs to be both a sub-plugin of `gatsby-plugin-mdx`, included in the `options` field, and a string entry in the plugins array. `gatsby-plugin-sharp` can be included on its own.
+
+`gatsby-source-filesystem` needs to be pointed at wherever you have your images on disk,
+
+> Note: This example configuration assumes your images and Markdown pages are sourced from the same directory. Check out the section on [configuring for different directories](#configuring-for-images-and-posts-in-different-directories) for additional help.
 
 > Note: This example configuration assumes your images and Markdown pages are sourced from the same directory. Check out the section on [configuring for different directories](#configuring-for-images-and-posts-in-different-directories) for additional help.
 
@@ -189,6 +255,7 @@ Configure the plugins in your `gatsby-config` file. As with the previous example
 module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -212,8 +279,43 @@ module.exports = {
 }
 ```
 
-With this configuration, you can use the default Markdown syntax for images. They will be processed by Sharp and appear as if you placed them in a `gatsby-image` component.
+### Using the Transformer Remark Plugin
 
+Here is a similar example using the `gatsby-transformer-remark` plugin instead of `gatsby-plugin-mdx`. Put the `gatsby-remark-images` plugin within the `plugins` option field of `gatsby-transformer-remark`.
+
+```js:title=gatsby-config.js
+module.exports = {
+  plugins: [
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/posts`,
+      },
+    },
+  ],
+}
+```
+
+With the configurations above, you can use the default Markdown syntax for images. They will be processed by Sharp and appear as if you placed them in a `gatsby-image` component.
+
+<<<<<<< HEAD
 ```md
+=======
+```markdown
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 ![Hopper The Rabbit](./rabbit-friend.png)
 ```

@@ -65,11 +65,15 @@ module.exports = {
 
 When using Gatsby themes, you can take advantage of something called component shadowing. This allows you to override the default component included in the theme with a custom one you've created.
 
+<<<<<<< HEAD
 The Gatsby blog theme package has a component that contains the content of the site author's biography. The file path to that component (in the blog theme package, not your site) is `gatsby-theme-blog/src/components/bio-content.js`. You can find this path by looking through the theme in your site's `node_modules/gatsby-theme-blog` directory.
+=======
+The Gatsby blog theme package has a component that contains the content of the site author's biography. The file path to that component (in the blog theme package, not your site) is `src/gatsby-theme-blog/components/bio-content.js`. You can find this path by looking through the theme in your site's `node_modules/gatsby-theme-blog` directory.
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 If you look at the file tree of your site, you'll see it looks like this:
 
-```
+```text
 my-blog
 ├── content
 │   ├── assets
@@ -94,6 +98,8 @@ In the `src` directory of the site, there's a `gatsby-theme-blog` directory. Any
 Open up the `bio-content.js` file and make some content edits:
 
 ```jsx:title=bio-content.js
+import React, { Fragment } from "react"
+
 export default () => (
   {/* highlight-start */}
   <Fragment>
@@ -144,6 +150,9 @@ The blog theme ships with a default Gatsby purple theme, but you can override an
 Open up `/src/gatsby-theme-blog/gatsby-plugin-theme-ui/colors.js`, and uncomment the code in that file.
 
 ```javascript:title=colors.js
+import merge from "deepmerge"
+import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/colors"
+
 {/* highlight-start */}
 const darkBlue = `#007acc`
 const lightBlue = `#66E0FF`
@@ -177,3 +186,7 @@ To see what other theme colors you can customize, check out the `colors.js` file
 ## Wrapping up
 
 This was a step-by-step introduction to using a Gatsby theme through looking at a specific example. Note that different themes will be built differently, to accept different customization options. To dive deeper, check out the [Gatsby Theme docs](/docs/themes/).
+
+## What's next?
+
+- [Using multiple themes together](/tutorial/using-multiple-themes-together/)

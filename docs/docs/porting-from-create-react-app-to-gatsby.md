@@ -29,7 +29,7 @@ Gatsby still works with all the `react` packages running in a Create React App p
 
 ### Unified GraphQL data layer
 
-Plugins can also pull in data from any number of sources like APIs, CMSs, or the filesystem. That data is combined into a unified data layer that you can [query with GraphQL](/docs/querying-with-graphql/) throughout your app.
+Plugins can also pull in data from any number of sources like APIs, CMSs, or the filesystem. That data is combined into a unified data layer that you can [query with GraphQL](/docs/graphql-concepts/) throughout your app.
 
 This data layer simplifies the process of pulling data from different sources and providing them in your pages and components. This combination of data from different sources stitched together in a modern workflow is referred to as [the content mesh](/blog/2018-10-04-journey-to-the-content-mesh/).
 
@@ -61,7 +61,7 @@ The following sections explain the above steps as well as other changes that you
 
 To show some of the differences of how your project structure could differ by moving to Gatsby, a default Create React App project looks something like this:
 
-```
+```text
   my-create-react-app
   ├── .git
   ├── .gitignore
@@ -119,10 +119,18 @@ The `gatsby build` command also won't be able to use browser APIs, so some code 
 
 Some common globals that would need to be protected are:
 
+<<<<<<< HEAD
 - `window`
 - `localStorage`
 - `navigator`
 - `document`
+=======
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+- [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [`sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- [`navigator`](https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator)
+- [`document`](https://developer.mozilla.org/en-US/docs/Web/API/Document)
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 Additionally, some packages that depend on globals existing (e.g. `react-router-dom`) may need to be [patched](/docs/debugging-html-builds/#fixing-third-party-modules) or migrated to other packages.
 
@@ -134,6 +142,7 @@ These are only a few examples, though all can be fixed in one of two ways:
 if (typeof window !== `undefined`) {
   // code that references a browser global
   window.alert("Woohoo!")
+<<<<<<< HEAD
 }
 ```
 
@@ -178,6 +187,52 @@ class MyComponment() extends Component {
 }
 ```
 
+=======
+}
+```
+
+2. For class components: moving references to browser globals into a `componentDidMount`
+
+```jsx
+
+import React, { Component } from "react"
+
+class MyComponment() extends Component {
+  render() {
+    window.alert("This will break the build")
+
+    return (
+      <div>
+        <p>Component</p>
+      </div>
+    )
+  }
+}
+```
+
+Would be changed into:
+
+```jsx
+
+import React, { Component } from "react"
+
+class MyComponment() extends Component {
+  componentDidMount() {
+    // code that references the browser global
+    window.alert("This won't break the build")
+  }
+
+  render() {
+    return (
+      <div>
+        <p>Component</p>
+      </div>
+    )
+  }
+}
+```
+
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 3. For function components: moving references to browser globals into a `useEffect` hook
 
 ```jsx
@@ -208,7 +263,11 @@ export default Foo
 
 If these browser globals aren't protected correctly, you'll see a webpack error like the one below when building your site:
 
+<<<<<<< HEAD
 ```
+=======
+```text
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 WebpackError: ReferenceError: window is not defined
 ```
 
@@ -220,7 +279,7 @@ There are two possibilities of routes that you can set up: static and client-onl
 
 > **Note**: An advantage to having pages in separate files like this is a defined way of [automatically code splitting](/docs/how-code-splitting-works/), whereas Create React App requires you to use the `import()` syntax to assign what elements should be loaded dynamically.
 
-For dynamic routes, you should implement routing with [@reach/router](https://reach.tech/router), which is already included with Gatsby. Dynamic routes can be implemented the same way you would implement a router in Create React App (or any other React application). However, because these routes won't be represented as HTML files in the final build, if you want users to be able to visit the routes directly (like entering the URL in the search bar), you'll need to generate pages in the `gatsby-node.js` file which is demonstrated in the [Building Apps with Gatsby](/docs/building-apps-with-gatsby/) guide.
+For dynamic routes, you should implement routing with [@reach/router](https://reach.tech/router), which is already included with Gatsby. Dynamic routes can be implemented the same way you would implement a router in Create React App (or any other React application). However, because these routes won't be represented as HTML files in the final build, if you want users to be able to visit the routes directly (like entering the URL in the search bar), you'll need to generate pages in the `gatsby-node.js` file which is demonstrated in the [Building Apps with Gatsby](/docs/adding-app-and-website-functionality/) guide.
 
 ```jsx
 import React from "react"

@@ -29,7 +29,11 @@ But creating optimized images for websites has long been a thorny problem. Ideal
 - Use the “blur-up” technique or a “traced placeholder” SVG to show a preview of the image while it loads
 - Hold the image position so your page doesn’t jump while the images load
 
+<<<<<<< HEAD
 Doing this consistently across a site feels like Sisyphean labor. You manually optimize your images and then… several images are swapped in at the last minute or a design-tweak shaves 100px of width off your images.
+=======
+Doing this consistently across a site feels like a task that can never be completed. You manually optimize your images and then… several images are swapped in at the last minute or a design-tweak shaves 100px of width off your images.
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 Most solutions involve a lot of manual labor and bookkeeping to ensure every image is optimized.
 
@@ -83,6 +87,7 @@ module.exports = {
 
 ```jsx:title=src/pages/my-dogs.js
 import React from "react"
+<<<<<<< HEAD
 import { useStaticQuery, graphql } from "gatsby" // highlight-line
 import Layout from "../components/layout"
 
@@ -107,6 +112,33 @@ export default () => {
     </Layout>
   )
 }
+=======
+import { graphql } from "gatsby" // highlight-line
+import Layout from "../components/layout"
+
+export default ({ data }) => {
+  return (
+    <Layout>
+      <h1>I love my corgi!</h1>
+    </Layout>
+  )
+}
+
+// highlight-start
+export const query = graphql`
+  query MyQuery {
+    file(relativePath: { eq: "images/corgi.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+// highlight-end
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 ```
 
 <EggheadEmbed
@@ -118,6 +150,7 @@ export default () => {
 
 ```jsx:title=src/pages/my-dogs.js
 import React from "react"
+<<<<<<< HEAD
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image" // highlight-line
@@ -135,6 +168,13 @@ export default () => {
       }
     }
   `)
+=======
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import Img from "gatsby-image" // highlight-line
+
+export default ({ data }) => {
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
   return (
     <Layout>
       <h1>I love my corgi!</h1>
@@ -147,6 +187,22 @@ export default () => {
     </Layout>
   )
 }
+<<<<<<< HEAD
+=======
+
+export const query = graphql`
+  query MyQuery {
+    file(relativePath: { eq: "images/corgi.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+>>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 ```
 
 <EggheadEmbed
