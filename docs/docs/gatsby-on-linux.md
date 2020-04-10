@@ -2,13 +2,9 @@
 title: Gatsby on Linux
 ---
 
-<<<<<<< HEAD
-> This is a TODO. Help our community expand it.
-=======
 This guide assumes you already have a native installation of Linux on your machine. The following steps walk through how to install Node.js and associated dependencies.
 
 ## Ubuntu, Debian, and other `apt` based distros
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 
 Begin by updating and upgrading.
 
