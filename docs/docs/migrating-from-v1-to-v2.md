@@ -18,7 +18,7 @@ This documentation page covers the _how_ of migrating from v1 to v2. Various blo
 
 - [v2 Overview](/blog/2018-09-17-gatsby-v2/) by Kyle Mathews
 - [Improving accessibility](/blog/2018-09-27-reach-router/) by Amberley Romo
-- [Keeping Gatsby sites blazing fast](/blog/2019-10-03-gatsby-perf/) by Dustin Schau
+- [Keeping Gatsby sites blazing fast](/blog/2018-10-03-gatsby-perf/) by Dustin Schau
 
 ## What we'll cover
 
@@ -495,7 +495,7 @@ Here's a more complex example of migrating a `<PrivateRoute>` component (used
 in store.gatsbyjs.org) from React Router to @reach/router.
 
 ```diff
- import React from 'react';
+ import * as React from 'react';
 -import { Redirect, Route } from 'react-router-dom';
 +import { Router, navigate } from '@reach/router';
  import { isAuthenticated } from '../../utils/auth';
@@ -549,7 +549,7 @@ If you were using `replaceRouterComponent` for this, you'll need to migrate to
 `wrapRootElement`:
 
 ```diff
-import React from 'react'
+import * as React from 'react'
 import { Provider } from 'react-redux'
 -import { Router } from 'react-router-dom'
 
