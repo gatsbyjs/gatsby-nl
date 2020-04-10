@@ -12,11 +12,7 @@ For example, `gatsby-theme-blog` is the official Gatsby theme for creating a blo
 
 To install it, run in the root of your site:
 
-<<<<<<< HEAD
-```js
-=======
 ```shell
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 npm install --save gatsby-theme-blog
 ```
 
