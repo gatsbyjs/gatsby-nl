@@ -33,8 +33,6 @@ gatsby build --prefix-paths
 
 If this flag is not passed, Gatsby will ignore your `pathPrefix` and build the site as if hosted from the root domain.
 
-<<<<<<< HEAD
-=======
 ## Serve
 
 Serve your application with the `--prefix-paths` flag, like so:
@@ -45,7 +43,6 @@ gatsby serve --prefix-paths
 
 If this flag is not passed, Gatsby will ignore your `pathPrefix`.
 
->>>>>>> 61566f1fdafd643bb14b6d8770b71041564d5c94
 ## In-app linking
 
 Gatsby provides APIs and libraries to make using this feature seamless. Specifically, the [`Link`](/docs/gatsby-link/) component has built-in functionality to handle path prefixing.
