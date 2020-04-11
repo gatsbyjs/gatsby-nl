@@ -190,7 +190,7 @@ query {
 }
 ```
 
-Suppose you want to create a relationship between Posts and Authors, and you want to call the field `author`.
+For Gatsby to automatically infer a relationship, you need to create a field called `author___NODE` on the Post object to hold the relationship to Authors before you create the node. The value of this field should be the node ID of the Author.
 
 ```javascript:title=source-plugin/gatsby-node.js
 exports.sourceNodes = ({ actions, createContentDigest }) => {

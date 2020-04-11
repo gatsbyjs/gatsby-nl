@@ -119,10 +119,11 @@ The `gatsby build` command also won't be able to use browser APIs, so some code 
 
 Some common globals that would need to be protected are:
 
-- `window`
-- `localStorage`
-- `navigator`
-- `document`
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+- [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [`sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- [`navigator`](https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator)
+- [`document`](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 
 Additionally, some packages that depend on globals existing (e.g. `react-router-dom`) may need to be [patched](/docs/debugging-html-builds/#fixing-third-party-modules) or migrated to other packages.
 
@@ -208,7 +209,7 @@ export default Foo
 
 If these browser globals aren't protected correctly, you'll see a webpack error like the one below when building your site:
 
-```
+```text
 WebpackError: ReferenceError: window is not defined
 ```
 

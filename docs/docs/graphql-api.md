@@ -224,12 +224,6 @@ Fragments allow you to reuse parts of GraphQL queries. They also allow you to sp
 
 For more information, check out the docs guide on [using fragments in Gatsby](/docs/using-graphql-fragments/).
 
-### List of Gatsby fragments
-
-Some fragments come included in Gatsby plugins, such as fragments for returning optimized image data in various formats with `gatsby-image` and `gatsby-transformer-sharp`, or data fragments with `gatsby-source-contentful`.
-
-#### Image sharp fragments
-
 ### Gatsby fragments
 
 Some fragments come included in Gatsby plugins, such as fragments for returning optimized image data in various formats with `gatsby-image` and `gatsby-transformer-sharp`, or data fragments with `gatsby-source-contentful`. For more information on what plugins include fragments, see the [`gatsby-image` README](/packages/gatsby-image#fragments).
